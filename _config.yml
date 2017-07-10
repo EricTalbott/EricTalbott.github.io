@@ -16,9 +16,11 @@
 title: A Portfolio
 email: eric.talbott.85@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi. I'm going to update this site over time. Right now I am focusing on
+  Jekyll themes and learning the ropes in general of doing this sort of
+  thing. I will most likely primarly use this site for write ups on projects
+  and/or new topics that I am learning. I would also eventually like to use
+  this to host web app projects when I learn how to, you know... make web apps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
@@ -27,7 +29,7 @@ github_username:  EricTalbott
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 
 # Exclude from processing.
